@@ -1,7 +1,6 @@
 {
   "name": "bitgencheck",
   "version": "1.0.0",
-  "description": "",
   "main": "generator.js",
   "dependencies": {
     "coinkey": "^3.0.0",
@@ -12,8 +11,17 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node generator.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AubakirovArman/bitgenwalletbalance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AubakirovArman/bitgenwalletbalance/issues"
+  },
+  "homepage": "https://github.com/AubakirovArman/bitgenwalletbalance#readme",
+  "description": ""
 }
