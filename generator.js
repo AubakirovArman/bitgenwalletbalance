@@ -67,6 +67,7 @@ var teleg =new telegram();
   let url= 'https://blockchain.info/address/'+(add.publicAddress).toString()+'?format=json'
   request(url,function (error, response, body) {
     try{
+      console.log(body)
       let ans=JSON.parse(body)
       let n_tx=JSON.parse(body)
 
